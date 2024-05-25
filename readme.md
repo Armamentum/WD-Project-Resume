@@ -1,120 +1,118 @@
-<a name="readme-top">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   Armamento's first HTML resume
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div align="center">
+        <a href="https://github.com/Armamentum">
+            <!-- You can replace 'resume 1x1.png' with your own logo or image -->
+            <img src="assets/img/resume 1x1.png" width="150" height="150" alt="Profile Image">
+        </a>
+        <h3 align="center">Winfred Emmanuel John O. Armamento</h3>
+    </div>
 
-<br/>
+    ![](https://visit-counter.vercel.app/counter.png?Armamentum/WD-Resume)
 
-<br />
-<div align="center">
-  <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
-  </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
-</div>
-<!-- TODO: Make a short description -->
-<div align="center">
-  Short Description. (Optional)
-</div>
+    <details>
+        <summary>Table of Contents</summary>
+        <ol>
+            <li>
+                <a href="#overview">Overview</a>
+                <ol>
+                    <li>
+                        <a href="#key-components">Key Components</a>
+                    </li>
+                    <li>
+                        <a href="#technology">Technology</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <a href="#rules-and-principles">Rules and Principles</a>
+            </li>
+            <li>
+                <a href="#resources">Resources</a>
+            </li>
+        </ol>
+    </details>
 
-<br />
+    <div id="overview">
+        <h2>Overview</h2>
+        <p>This project is a template for creating a one-page resume website. It is designed to help individuals showcase their skills, experience, and portfolio in a simple and effective manner.</p>
+        <p>Guiding Questions:</p>
+        <ul>
+            <li>What is the project? - A template for a resume website.</li>
+            <li>What is the purpose? - To provide a professional online presence.</li>
+            <li>What are the key components? - Personal information, skills, experience, and portfolio.</li>
+            <li>What technology is used and how is it used? - HTML and CSS for structure and styling.</li>
+        </ul>
+    </div>
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+    <div id="key-components">
+        <h2>Key Components</h2>
+        <ul>
+            <li>Single Page Website</li>
+            <li>Personal Information Section</li>
+            <li>Skills Section</li>
+            <li>Experience Section</li>
+            <li>Portfolio Section</li>
+            <li>Contact Information</li>
+        </ul>
+    </div>
 
----
+    <div id="technology">
+        <h2>Technology</h2>
+        <ul>
+            <li><img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML"></li>
+            <li><img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS"></li>
+        </ul>
+    </div>
 
-<br />
-<br />
-
-<!-- TODO: If you want to add more layers for your readme -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#overview">Overview</a>
-      <ol>
-        <li>
-          <a href="#key-components">Key Components</a>
-        </li>
-        <li>
-          <a href="#technology">Technology</a>
-        </li>
-      </ol>
-    </li>
-    <li>
-      <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
-    </li>
-    <li>
-      <a href="#resources">Resources</a>
-    </li>
-  </ol>
-</details>
-
----
-
-## Overview
-
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
-
-### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
-
-### Technology
-<!-- TODO: List of Technology Used -->
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
-
-## Rules, Practices and Principles
-1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
-2. Do not rename any .html files; always use `index.html` as the filename.
-3. Place Files in their respective folders.
-4. All file naming are in camel case.
-   - Camel case is naming format where there is no white space in separation of each words, the first word is in all lower case while the succeding words first letter are in upper followed by lower cased letters.
-   - ex.: buttonAnimatedStyle.css
-5. Use only `External CSS`.
-6. Renaming of Pages folder names are a must, and relates to what it is doing or data it holding.
-7. File Structure to follow below.
-
-```
-WD-ProjectName
-└─ assets
-|   └─ css
-|   |   └─ style.css
-|   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ script.js
-└─ pages
-|  └─ pageName
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ style.css
-|     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
-|     └─ index.html
-└─ index.html
+    <div id="rules-and-principles">
+        <h2>Rules and Principles</h2>
+        <ol>
+            <li>Always use ***WD-*** at the beginning of the project title for the subject followed by your custom naming.</li>
+            <li>Do not rename any .html files; always use 'index.html' as the filename.</li>
+            <li>File structure to follow:
+                <pre>
+WD-Resume
+├─ assets
+│  ├─ css
+│  │  └─ style.css
+│  ├─ img
+│  │  └─ profile.png
+│  ├─ js
+│     └─ script.js
+├─ index.html
 └─ readme.md
-```
+                </pre>
+            </li>
+        </ol>
+    </div>
 
-## Resources
-
-<!-- TODO: Add References -->
-| Title | Purpose | Link |
-|-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+    <div id="resources">
+        <h2>Resources</h2>
+        <table>
+            <tr>
+                <th>Title</th>
+                <th>Purpose</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>HTML Documentation</td>
+                <td>Reference for HTML elements and attributes.</td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs</a></td>
+            </tr>
+            <tr>
+                <td>CSS Documentation</td>
+                <td>Reference for CSS properties and values.</td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN Web Docs</a></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
